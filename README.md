@@ -1,2 +1,2 @@
-# space-invaders2
+# space-invaders
 Space invaders-like game made in Python/Pygame
