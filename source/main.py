@@ -11,6 +11,7 @@ from bullet import Bullet
 from alien import Alien
 from button import Button
 
+
 class AlienInvasion:
     """Overall class to manage game assets and behavior."""
 
@@ -51,7 +52,6 @@ class AlienInvasion:
             self._check_events()
 
             if self.game_active:
-
                 self.ship.update()
                 self._update_bullets()
                 self._update_aliens()
@@ -68,7 +68,7 @@ class AlienInvasion:
                 self._check_keydown_events(event)
             elif event.type == pygame.KEYUP:
                 self._check_keyup_events(event)
-            elif event.type ==pygame.MOUSEBUTTONDOWN:
+            elif event.type == pygame.MOUSEBUTTONDOWN:
                 mouse_pos = pygame.mouse.get_pos()
                 self._check_play_button(mouse_pos)
 
@@ -257,4 +257,3 @@ if __name__ == '__main__':
 
     ai = AlienInvasion()
     ai.run_game()
-
