@@ -12,4 +12,4 @@ Jump into a reimagined Space Invaders! Blast aliens and chase high scores from y
 #### Q - To quit the game
 
 ## Downloads
-[v0.1.0 Windows](httphttps://github.com/redneckvitor/space-invaders/releases/tag/Windows:// "v0.1.0 Windows")
+[v0.1.0 Windows](https://github.com/redneckvitor/space-invaders/releases/tag/Windows:// "v0.1.0 Windows")
