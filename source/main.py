@@ -1,3 +1,19 @@
+"""
+This is the main module of the game, where the game instances are created and the game loop is managed.
+
+Classes:
+    - AlienInvasion: The main class of the game, it manages the game assets and behavior.
+
+Methods in AlienInvasion:
+    - __init__: Initializes the game, and creates resources (like the ship, bullets, aliens, etc).
+    - run_game: Starts the main loop of the game.
+    - _check_events: Watch for keyboard and mouse events.
+    - _update_screen: Redraw all items and flip to the new screen.
+    - Other private methods to handle game behavior such as ship movement, bullet firing, alien fleet management, etc.
+
+Running this module starts the game.
+"""
+
 import sys
 from time import sleep
 
@@ -131,8 +147,6 @@ class AlienInvasion:
             # Create a new fleet and center the ship.
             self._create_fleet()
             self.ship.center_ship()
-
-
 
     def _check_keyup_events(self, event):
         """Respond to key releases."""

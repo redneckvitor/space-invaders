@@ -1,3 +1,26 @@
+"""
+This module contains the Settings class, which is used to store all settings for the game.
+
+Class:
+    - Settings: A class to store all settings for the game.
+
+Methods in Settings:
+    - __init__: Initializes the game's static settings.
+    - initialize_dynamic_settings: Initialize settings that change throughout the game.
+    - increase_speed: Increase speed settings and alien point values.
+
+Attributes in Settings:
+    - screen_width, screen_height, bg_color: Screen settings.
+    - ship_speed, ship_limit: Ship settings.
+    - bullet_speed, bullet_width, bullet_height, bullet_color, bullets_allowed: Bullet settings.
+    - alien_speed, fleet_drop_speed, fleet_direction: Alien settings.
+    - speedup_scale, score_scale: Game speedup and scoring settings.
+    - other attributes to manage dynamic game settings.
+
+By importing this module and creating an instance of Settings, one can easily manage and adjust game settings.
+"""
+
+
 class Settings:
     """A class to store all settings for Alien Invasion"""
 

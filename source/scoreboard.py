@@ -1,3 +1,27 @@
+"""
+This module contains the Scoreboard class, which is used to manage and display scoring information during gameplay.
+
+Class:
+    - Scoreboard: A class to report scoring information.
+
+Methods in Scoreboard:
+    - __init__: Initializes scorekeeping attributes and prepares the initial score images.
+    - prep_score, prep_high_score, prep_level, prep_ships: Methods to prepare the corresponding information to be
+    rendered as images.
+    - show_score: Draws scores, level and ships to the screen.
+    - check_high_score: Checks if there's a new high score.
+
+Attributes in Scoreboard:
+    - screen, screen_rect, settings, stats: Game information.
+    - text_color, font: Font settings for displaying scores.
+    - score_image, high_score_image, level_image, ships: Rendered images to be displayed.
+    - score_rect, high_score_rect, level_rect: Positioning information for the displayed images.
+
+This module allows for the management of scorekeeping and the rendering of scores, level, and ship information onto the
+game screen.
+"""
+
+
 import pygame.font
 from pygame.sprite import Group
 

@@ -1,3 +1,26 @@
+"""
+This module includes the Ship class, used for managing the ship's behavior in the game.
+
+Class:
+    - Ship: A class to manage the ship.
+
+Methods in Ship:
+    - __init__: Initializes the ship and sets its starting position.
+    - update: Updates the ship's position based on the movement flags.
+    - blitme: Draws the ship at its current location.
+    - center_ship: Centers the ship on the screen.
+
+Attributes in Ship:
+    - screen, settings, screen_rect: Contains information about the game screen and settings.
+    - image, rect: Related to the ship's image and position.
+    - x: Stores a float value for the ship's exact horizontal position.
+    - moving_right, moving_left: Movement flags for the ship's direction.
+
+By importing this module and creating an instance of Ship, one can manage the ship's appearance, position, and movement
+within the game.
+"""
+
+
 import pygame
 from pygame.sprite import Sprite
 

@@ -1,3 +1,23 @@
+"""
+This module contains the Bullet class, which is responsible for managing the bullets that the ship fires in the game.
+
+Class:
+    - Bullet: A class to manage bullets fired from the ship.
+
+Methods in Bullet:
+    - __init__: Creates a bullet object at the ship's current position.
+    - update: Updates the bullet's position, moving it up the screen.
+    - draw_bullet: Draws the bullet to the screen.
+
+Attributes in Bullet:
+    - screen, settings, color: Information about the game screen and bullet settings.
+    - rect: The bullet's position.
+    - y: The bullet's exact vertical position stored as a float.
+
+This module handles the creation, movement, and rendering of bullets during gameplay.
+"""
+
+
 import pygame
 from pygame.sprite import Sprite
 

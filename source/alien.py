@@ -1,3 +1,24 @@
+"""
+This module includes the Alien class, used for representing a single alien in the game's fleet.
+
+Class:
+    - Alien: A class to represent a single alien in the fleet.
+
+Methods in Alien:
+    - __init__: Initializes the alien and sets its starting position.
+    - check_edges: Returns True if the alien is at the edge of the screen.
+    - update: Moves the alien right or left.
+
+Attributes in Alien:
+    - screen, settings: Contains information about the game screen and settings.
+    - image, rect: Related to the alien's image and position.
+    - x: Stores a float value for the alien's exact horizontal position.
+
+By importing this module and creating instances of Alien, one can manage the aliens' appearances,
+positions, and movements within the game.
+"""
+
+
 import pygame
 from pygame.sprite import Sprite
 
